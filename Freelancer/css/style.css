@@ -1,0 +1,33 @@
+
+.wp-caption-text,
+.sticky,
+.gallery-caption,
+.bypostauthor {}
+
+
+/* Pagination  */ 
+#pagination {
+	display: block;
+	text-align: center;
+}
+#pagiCount{
+	display: inline-block;
+	margin: auto;
+}
+#pagiCount a, #pagiCount strong {
+	display: block;
+	width: 50px;
+	background: #F3CD33;
+	float: left;
+	margin-right: 5px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-size:15px;
+	line-height: 29px;
+}
+#pagination strong , #pagination a:hover {
+	background:rgba(244, 204, 51, 0.37) none repeat scroll 0 0;
+	color:#000;
+	font-size:15px;
+}

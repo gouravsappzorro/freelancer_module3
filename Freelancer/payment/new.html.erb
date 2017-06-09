@@ -1,0 +1,35 @@
+<h1>Thank you for using our services.</h1>
+
+<p>
+    You (<%= @user.email %>) have ordered the <%= @product.name %>.
+</p>
+
+<div class="payment_info">
+  <p>
+    <strong>Name:</strong>
+    <%= @product.name %>
+  </p>
+
+  <p>
+    <strong>Description:</strong>
+    <%= @product.description %>
+  </p>
+
+  <p>
+    <strong>Colour:</strong>
+    <%= @product.colour %>
+  </p>
+
+  <p>
+    <strong>Price:</strong>
+    <%= '%.2f' % (@product.amount/100.00) %>
+  </p>
+ </div>
+
+<%= form_for(@payment) do |f| %>
+  <%= hidden_field_tag :product_id, @product.id %>
+  <%= hidden_field_tag :customer_id, @customer.id %>
+  <%= f.submit %>
+<% end %>
+
+<%= link_to 'Back', product_path(@payment.product) %>

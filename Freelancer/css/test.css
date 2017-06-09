@@ -1,0 +1,55 @@
+.test input[type="text"],
+.test input[type="url"],
+.contact-form input[type="email"] , 
+.contact-form textarea , 
+.comment-form input[type="text"],
+.comment-form input[type="url"],
+.comment-form input[type="email"] , 
+.comment-form textarea{
+	width:100%;
+	max-width:100%
+}
+
+.test input[type="text"].error , .contact-form input[type="email"].error , .contact-form textarea.error {
+	border-color:#e99f9f!important;
+}
+.test input[type="text"].valid , .contact-form input[type="email"].valid , .contact-form textarea.valid {
+	border-color: #c0da66!important;
+}
+.test .control-wrap .icon , .comment-form .control-wrap .icon {
+	position: absolute;
+	width: 45px;
+	height:42px;
+	text-align: center;
+	text-align: center;
+	line-height: 45px;
+	left: 1px;
+	top: 2px!important;
+	z-index: 12;
+	margin: 0!important;
+	display:none;
+	font-size:16px;
+	color:#ccc;
+}
+
+/* Disable icons for contact form */
+.test.field-icons-yes input[type="text"],.contact-form.field-icons-yes input[type="email"], .comment-form input[type="text"],.comment-form input[type="email"]{
+	padding-left:45px;
+}
+.test.field-icons-yes .control-wrap .icon ,.comment-form .control-wrap .icon {
+	display:inline-block 
+	}
+.test .control-wrap , .comment-form .control-wrap { position:relative; margin-bottom:0; }
+.test .row-fluid, .comment-form .row-fluid { margin: 0 -10px!important }
+
+.test .row-fluid [class*="span"], .comment-form .row-fluid [class*="span"] { padding: 0 10px!important; margin-bottom:30px;}
+
+/*#popup {
+    visibility: hidden; 
+    background-color: red; 
+    position: absolute;
+    top: 10px;
+    z-index: 100; 
+    height: 100px;
+    width: 300px;
+}*/

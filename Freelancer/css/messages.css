@@ -1,0 +1,117 @@
+.error{ color:#FF0000 !important; }
+		
+#message_box{
+		
+		height:400px;
+		overflow:scroll;
+    	        overflow-x: hidden;
+}
+.clear_row{
+
+		margin-right:5px;
+		margin-bottom:10px;
+}	
+.message_sender_box{
+	    margin-bottom: 15px;
+		background:#e1edf5;
+		border-radius: 10px;
+		height: auto;
+		word-wrap: break-word;
+		padding:15px 10px;font-size: 15px;
+}	
+.message_sender{
+		
+		margin:10px 0px;
+		font-size:18px;
+		text-transform:capitalize;
+}
+.message_reciver_box{
+
+		background:lightgray;
+		border-radius: 10px;
+		height: auto;
+		word-wrap: break-word;
+		padding:15px 10px;
+		font-size: 15px;
+		margin-top: 10px;
+}
+.image{
+		border: 5px solid lightgray;
+    	border-radius: 10px;
+		float:left;
+		margin-bottom:10px;
+		margin-left: 2px;
+    	margin-right: 0px;
+		margin-top:10px;	
+
+}
+.image1{
+		border: 5px solid ghostwhite;
+    	border-radius: 10px;
+		float:left;
+		margin-bottom:10px;
+		margin-left: 2px;
+    	margin-right: 0px;
+		margin-top:10px;
+
+}
+.reciver_time{
+		
+		font-size:12px;
+		vertical-align:middle;	
+		color:lightgray;
+		line-height: 62px;
+    	font-weight: bold;
+		padding-top: 5px;
+		padding-left: 2px;
+    	padding-right: 2px;
+
+}
+.sender_time{
+		
+		font-size:12px;
+		vertical-align:middle;	
+		color:#C9E1F2;
+		line-height: 62px;
+    	font-weight: bold;
+		padding-left: 2px;
+   		padding-right: 2px;
+		
+
+}
+.message_sender_box:before{
+
+	border-color: transparent #e1edf5 transparent transparent;
+    border-image: none;
+    border-style: solid;
+    border-width: 10px;
+    content: " ";
+    height: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 100%;
+    top: 17px;
+    width: 0px;
+}
+.message_reciver_box:before{
+	
+	border-color: transparent lightgray transparent transparent;
+    border-image: none;
+    border-style: solid;
+    border-width: 10px;
+    content: " ";
+    height: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 100%;
+    top: 17px;
+    width: 0px;
+}
+.message_sender img{
+	
+	margin-top:-5px;
+}	
+.message_reciver img{
+	
+	margin-top:18px;
+}

@@ -1,0 +1,1 @@
+[06-Jan-2017 08:18:06 CST6CDT] PHP Fatal error:  Cannot redeclare limit_words() (previously declared in /home/greencub/public_html/Projects/Freelancer/Admin/MyInclude/MyConfig.php:61) in /home/greencub/public_html/Projects/Freelancer/Admin/MyInclude/MyConfig.php on line 70
